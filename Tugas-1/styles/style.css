@@ -23,6 +23,7 @@ body {
   align-items: center;
 
   background-color: whitesmoke;
+  z-index: 100;
 }
 
 .navbar a {
@@ -147,4 +148,39 @@ body {
   border-radius: 500px;
 
   box-shadow: 2px 2px 20px goldenrod;
+}
+
+/* Our Project */
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-project {
+  position: absolute;
+  top: 20%;
+}
+
+.project-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content-project p {
+  width: 50%;
+  text-align: justify;
+
+  margin-top: 20px;
+}
+
+.content-project h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.image-project {
+  width: 50%;
 }
