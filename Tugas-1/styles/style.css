@@ -103,11 +103,49 @@ body {
 
 /* Home Content 2 */
 .content-home-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content-home-2 h2 {
+  font-size: 60px;
+}
+
+.wrapper-home {
   display: grid;
-  grid-template-columns: 30% 30% 30%;
-  gap: 20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(2, auto);
+
+  position: relative;
+  top: 100px;
 }
 
 .part {
-  border: 2px solid burlywood;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.part h4 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.part p {
+  text-align: center;
+  width: 40%;
+}
+
+.image {
+  height: 200px;
+  width: 200px;
+  border-radius: 500px;
+
+  box-shadow: 2px 2px 20px goldenrod;
+  color: ;
 }
