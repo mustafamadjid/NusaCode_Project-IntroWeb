@@ -32,6 +32,10 @@ body {
   color: black;
 }
 
+.navbar a:hover {
+  text-decoration: underline;
+}
+
 .home {
   font-weight: 700;
 }
@@ -100,6 +104,12 @@ body {
   text-decoration: none;
   color: black;
   font-size: 15px;
+  transition: 0.5s;
+}
+
+.button a:hover {
+  font-size: larger;
+  color: goldenrod;
 }
 
 /* Home Content 2 */
@@ -111,7 +121,8 @@ body {
 }
 
 .content-home-2 h2 {
-  font-size: 60px;
+  margin-top: 250px;
+  font-size: 50px;
 }
 
 .wrapper-home {
@@ -124,6 +135,7 @@ body {
 
   position: relative;
   top: 100px;
+  gap: 100px;
 }
 
 .part {
@@ -148,6 +160,11 @@ body {
   border-radius: 500px;
 
   box-shadow: 2px 2px 20px goldenrod;
+  transition: 1s;
+}
+
+.image:hover {
+  box-shadow: 2px 20px 100px goldenrod;
 }
 
 /* Our Project */
