@@ -22,7 +22,7 @@ body {
   justify-content: space-between;
   align-items: center;
 
-  background-color: whitesmoke;
+  /* background-color: whitesmoke; */
   z-index: 100;
 }
 
@@ -58,7 +58,7 @@ body {
 }
 
 /* Home Content 1 */
-.container-home {
+.container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -168,11 +168,6 @@ body {
 }
 
 /* Our Project */
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 .content-project {
   position: absolute;
@@ -184,6 +179,8 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+
+  margin-bottom: 10%;
 }
 
 .content-project p {
@@ -200,4 +197,38 @@ body {
 
 .image-project {
   width: 50%;
+}
+
+/* About Us */
+.container .title {
+  position: absolute;
+  top: 15%;
+}
+
+.title h2 {
+  font-size: 2rem;
+}
+.content-aboutUS {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  right: 10%;
+}
+
+.content-aboutUS .content-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: bisque;
+}
+
+.content-aboutUS .content-1 p {
+  padding: 5%;
+  width: 60%;
+
+  text-align: justify;
+  font-size: 120%;
+}
+.content-aboutUS .content-1 img {
+  width: 30%;
 }
