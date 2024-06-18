@@ -22,7 +22,7 @@ body {
   justify-content: space-between;
   align-items: center;
 
-  /* background-color: whitesmoke; */
+  background-color: whitesmoke;
   z-index: 100;
 }
 
@@ -76,6 +76,7 @@ body {
 
   flex-direction: column;
   margin-top: 50px;
+  margin-bottom: 100px;
 }
 
 .home-text {
@@ -151,12 +152,12 @@ body {
 }
 .part p {
   text-align: center;
-  width: 40%;
+  width: 60%;
 }
 
 .image {
-  height: 200px;
-  width: 200px;
+  height: 130px;
+  width: 130px;
   border-radius: 500px;
 
   box-shadow: 2px 2px 20px goldenrod;
@@ -231,4 +232,21 @@ body {
 }
 .content-aboutUS .content-1 img {
   width: 30%;
+}
+
+.contact {
+  text-align: center;
+
+  margin-top: 9%;
+}
+
+.contact p {
+  font-size: 2rem;
+}
+
+.contact a {
+  font-size: 50px;
+
+  color: black;
+  padding: 10px;
 }
