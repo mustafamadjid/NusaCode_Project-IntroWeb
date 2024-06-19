@@ -135,7 +135,7 @@ body {
   grid-template-rows: repeat(2, auto);
 
   position: relative;
-  top: 100px;
+  top: 15%;
   gap: 100px;
 }
 
@@ -152,7 +152,7 @@ body {
 }
 .part p {
   text-align: center;
-  width: 60%;
+  width: 70%;
 }
 
 .image {
